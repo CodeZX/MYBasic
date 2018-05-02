@@ -12,6 +12,8 @@
 #import "HomePageVC.h"
 #import "BasicMainNC.h"
 #import "BasicMainTBVC.h"
+#import "UserCenterViewController.h"
+
 @implementation AppDelegate (UI)
 
 -(void)setMyWindowAndRootViewController
@@ -34,7 +36,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
 //    self.window.rootViewController = [[BasicMainTBVC alloc]init];
-    BasicMainNC *NC = [[BasicMainNC alloc]initWithRootViewController:[HomePageVC new]];
+    UserCenterViewController *VC = [[UserCenterViewController alloc]init];
+    BasicMainNC *NC = [[BasicMainNC alloc]initWithRootViewController:VC];
     self.window.rootViewController = NC;
 }
 
