@@ -10,6 +10,8 @@
 		186478B6209996D500D49EE5 /* UserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186478B5209996D500D49EE5 /* UserCenterViewController.m */; };
 		186478B920999FA600D49EE5 /* UserCenterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186478B820999FA600D49EE5 /* UserCenterTableViewCell.m */; };
 		186478BF2099B70600D49EE5 /* UserCenterTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 186478BE2099B70600D49EE5 /* UserCenterTableViewCellModel.m */; };
+		186478C3209BF1F300D49EE5 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 186478C2209BF1F300D49EE5 /* UserModel.m */; };
+		186478C6209BF21800D49EE5 /* UsersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 186478C5209BF21800D49EE5 /* UsersManager.m */; };
 		186BD62B208EFECB004D47D4 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD62A208EFECB004D47D4 /* HomeTableViewCell.m */; };
 		186BD62E208F1DCD004D47D4 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD62D208F1DCD004D47D4 /* DetailsViewController.m */; };
 		186BD631208F2CF9004D47D4 /* DetailsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD630208F2CF9004D47D4 /* DetailsCollectionViewCell.m */; };
@@ -171,6 +173,10 @@
 		186478B820999FA600D49EE5 /* UserCenterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserCenterTableViewCell.m; sourceTree = "<group>"; };
 		186478BD2099B70600D49EE5 /* UserCenterTableViewCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserCenterTableViewCellModel.h; sourceTree = "<group>"; };
 		186478BE2099B70600D49EE5 /* UserCenterTableViewCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserCenterTableViewCellModel.m; sourceTree = "<group>"; };
+		186478C1209BF1F300D49EE5 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		186478C2209BF1F300D49EE5 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		186478C4209BF21800D49EE5 /* UsersManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsersManager.h; sourceTree = "<group>"; };
+		186478C5209BF21800D49EE5 /* UsersManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsersManager.m; sourceTree = "<group>"; };
 		186BD629208EFECB004D47D4 /* HomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
 		186BD62A208EFECB004D47D4 /* HomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
 		186BD62C208F1DCD004D47D4 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
@@ -475,6 +481,7 @@
 		186478B02099965200D49EE5 /* UserCenter */ = {
 			isa = PBXGroup;
 			children = (
+				186478C0209BF1AC00D49EE5 /* UsersManager */,
 				186478B12099965200D49EE5 /* Controller */,
 				186478B22099965200D49EE5 /* Model */,
 				186478B32099965200D49EE5 /* View */,
@@ -496,6 +503,8 @@
 			children = (
 				186478BD2099B70600D49EE5 /* UserCenterTableViewCellModel.h */,
 				186478BE2099B70600D49EE5 /* UserCenterTableViewCellModel.m */,
+				186478C1209BF1F300D49EE5 /* UserModel.h */,
+				186478C2209BF1F300D49EE5 /* UserModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -507,6 +516,15 @@
 				186478B820999FA600D49EE5 /* UserCenterTableViewCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		186478C0209BF1AC00D49EE5 /* UsersManager */ = {
+			isa = PBXGroup;
+			children = (
+				186478C4209BF21800D49EE5 /* UsersManager.h */,
+				186478C5209BF21800D49EE5 /* UsersManager.m */,
+			);
+			path = UsersManager;
 			sourceTree = "<group>";
 		};
 		360E054D1DD0298B00E7C6C1 /* Helper(AppDelegateHelper) */ = {
@@ -1701,6 +1719,7 @@
 				367A5DFF1E7FC6810026EC3D /* GraphicBT.m in Sources */,
 				3686A8D61E724B5400FEA856 /* LYLBouncing.m in Sources */,
 				367A5DFB1E7FC65D0026EC3D /* TextView_Placeholder.m in Sources */,
+				186478C3209BF1F300D49EE5 /* UserModel.m in Sources */,
 				365A39521FA7014D009B2170 /* LYLIMGScrollView.m in Sources */,
 				186478B920999FA600D49EE5 /* UserCenterTableViewCell.m in Sources */,
 				368E15211EB2ED8B00765F4B /* BuriedPointManager.m in Sources */,
@@ -1740,6 +1759,7 @@
 				36A530381E8112220067F8F7 /* WebViewJavascriptBridge.m in Sources */,
 				367521901E4D5A4900F2117C /* UITableViewCell+NightVersion.m in Sources */,
 				3686A8C11E724B1B00FEA856 /* LYLShareManager.m in Sources */,
+				186478C6209BF21800D49EE5 /* UsersManager.m in Sources */,
 				36410B8A1DC05C9300231AF5 /* HomePageVC.m in Sources */,
 				3679AAC21DDDB7C000169DFF /* UIImageView+Extension.m in Sources */,
 				365A395A1FA703E5009B2170 /* YGOptionPicker.m in Sources */,
