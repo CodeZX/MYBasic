@@ -67,7 +67,6 @@
 		365A395A1FA703E5009B2170 /* YGOptionPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 365A39571FA703E4009B2170 /* YGOptionPicker.m */; };
 		365A395B1FA703E5009B2170 /* YGDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 365A39581FA703E4009B2170 /* YGDatePicker.m */; };
 		365A395E1FA706A1009B2170 /* lame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365A395D1FA706A1009B2170 /* lame.framework */; };
-		36650FAC1E0791E50099CD92 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36650FAB1E0791E50099CD92 /* UserModel.m */; };
 		366787FC1E0A4BAF0044CE85 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 366787FB1E0A4BAF0044CE85 /* Placeholder */; };
 		3675217A1E4D5A4900F2117C /* UIViewController+ChangeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3675213C1E4D5A4900F2117C /* UIViewController+ChangeColor.m */; };
 		3675217B1E4D5A4900F2117C /* DKNightVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3675213F1E4D5A4900F2117C /* DKNightVersionManager.m */; };
@@ -289,8 +288,6 @@
 		365A39581FA703E4009B2170 /* YGDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGDatePicker.m; sourceTree = "<group>"; };
 		365A39591FA703E5009B2170 /* YGOptionPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGOptionPicker.h; sourceTree = "<group>"; };
 		365A395D1FA706A1009B2170 /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lame.framework; sourceTree = "<group>"; };
-		36650FAA1E0791E50099CD92 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
-		36650FAB1E0791E50099CD92 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		366787FB1E0A4BAF0044CE85 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
 		3675213B1E4D5A4900F2117C /* UIViewController+ChangeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ChangeColor.h"; sourceTree = "<group>"; };
 		3675213C1E4D5A4900F2117C /* UIViewController+ChangeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ChangeColor.m"; sourceTree = "<group>"; };
@@ -661,8 +658,6 @@
 		36111AAB1D6EE58C00A03BF4 /* Model(数据模型) */ = {
 			isa = PBXGroup;
 			children = (
-				36650FAA1E0791E50099CD92 /* UserModel.h */,
-				36650FAB1E0791E50099CD92 /* UserModel.m */,
 			);
 			name = "Model(数据模型)";
 			path = Model;
@@ -1737,7 +1732,6 @@
 				3675218B1E4D5A4900F2117C /* UITabBar+NightVersion.m in Sources */,
 				3679E9E91E8B452D00180014 /* ZipFileArchiveManager.m in Sources */,
 				365A39551FA7039E009B2170 /* PhotoSelectorManager.m in Sources */,
-				36650FAC1E0791E50099CD92 /* UserModel.m in Sources */,
 				367A5DFF1E7FC6810026EC3D /* GraphicBT.m in Sources */,
 				3686A8D61E724B5400FEA856 /* LYLBouncing.m in Sources */,
 				367A5DFB1E7FC65D0026EC3D /* TextView_Placeholder.m in Sources */,
