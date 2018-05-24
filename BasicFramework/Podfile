@@ -23,4 +23,12 @@ target ‘BasicFramework’ do
   
   pod 'KVOController'
   
+  
+  
+  pod 'WMPageController'
+  pod 'SDCycleScrollView'
+  pod 'ZFPlayer'
+  pod 'SVProgressHUD'
+  pod 'JPush'
+  pod 'DZNEmptyDataSet'
 end

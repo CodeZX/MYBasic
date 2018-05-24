@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181DEDFF20B6C85E00507AE4 /* WSDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181DEDF220B6C85D00507AE4 /* WSDatePickerView.xib */; };
+		181DEE0020B6C85E00507AE4 /* WSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DEDF320B6C85D00507AE4 /* WSDatePickerView.m */; };
+		181DEE0120B6C85E00507AE4 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DEDF420B6C85D00507AE4 /* NSDate+Extension.m */; };
+		181DEE0220B6C85E00507AE4 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DEDF520B6C85D00507AE4 /* UIView+Extension.m */; };
+		181DEE0320B6C85E00507AE4 /* UIImage+TJ_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DEDF820B6C85E00507AE4 /* UIImage+TJ_Extension.m */; };
+		181DEE0420B6C85E00507AE4 /* XTJWebNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DEDF920B6C85E00507AE4 /* XTJWebNavigationViewController.m */; };
+		181DEE0520B6C85E00507AE4 /* ATJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DEDFC20B6C85E00507AE4 /* ATJWebViewController.m */; };
+		181DEE0620B6C85E00507AE4 /* ATJURLFailture.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DEDFD20B6C85E00507AE4 /* ATJURLFailture.m */; };
 		1859A52220A1529B00FFB7EF /* SDLaunchWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859A4FB20A1529B00FFB7EF /* SDLaunchWebViewController.m */; };
 		1859A52320A1529B00FFB7EF /* SDLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859A4FC20A1529B00FFB7EF /* SDLaunchViewController.m */; };
 		1859A52420A1529B00FFB7EF /* 进入应用.png in Resources */ = {isa = PBXBuildFile; fileRef = 1859A4FE20A1529B00FFB7EF /* 进入应用.png */; };
@@ -169,6 +177,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181DEDEF20B6C85D00507AE4 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		181DEDF020B6C85D00507AE4 /* WSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerView.h; sourceTree = "<group>"; };
+		181DEDF120B6C85D00507AE4 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		181DEDF220B6C85D00507AE4 /* WSDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSDatePickerView.xib; sourceTree = "<group>"; };
+		181DEDF320B6C85D00507AE4 /* WSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerView.m; sourceTree = "<group>"; };
+		181DEDF420B6C85D00507AE4 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		181DEDF520B6C85D00507AE4 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		181DEDF720B6C85E00507AE4 /* ATJWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATJWebViewController.h; sourceTree = "<group>"; };
+		181DEDF820B6C85E00507AE4 /* UIImage+TJ_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TJ_Extension.m"; sourceTree = "<group>"; };
+		181DEDF920B6C85E00507AE4 /* XTJWebNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTJWebNavigationViewController.m; sourceTree = "<group>"; };
+		181DEDFA20B6C85E00507AE4 /* ATJURLFailture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATJURLFailture.h; sourceTree = "<group>"; };
+		181DEDFB20B6C85E00507AE4 /* UIImage+TJ_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TJ_Extension.h"; sourceTree = "<group>"; };
+		181DEDFC20B6C85E00507AE4 /* ATJWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATJWebViewController.m; sourceTree = "<group>"; };
+		181DEDFD20B6C85E00507AE4 /* ATJURLFailture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATJURLFailture.m; sourceTree = "<group>"; };
+		181DEDFE20B6C85E00507AE4 /* XTJWebNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTJWebNavigationViewController.h; sourceTree = "<group>"; };
 		1859A4FB20A1529B00FFB7EF /* SDLaunchWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLaunchWebViewController.m; sourceTree = "<group>"; };
 		1859A4FC20A1529B00FFB7EF /* SDLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLaunchViewController.m; sourceTree = "<group>"; };
 		1859A4FD20A1529B00FFB7EF /* SDLaunchWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLaunchWebViewController.h; sourceTree = "<group>"; };
@@ -481,6 +504,35 @@
 				A2404136FF63979E9EA81231 /* Pods-BasicFramework.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		181DEDEE20B6C85D00507AE4 /* WSDaePickerView（时间选择器） */ = {
+			isa = PBXGroup;
+			children = (
+				181DEDEF20B6C85D00507AE4 /* NSDate+Extension.h */,
+				181DEDF020B6C85D00507AE4 /* WSDatePickerView.h */,
+				181DEDF120B6C85D00507AE4 /* UIView+Extension.h */,
+				181DEDF220B6C85D00507AE4 /* WSDatePickerView.xib */,
+				181DEDF320B6C85D00507AE4 /* WSDatePickerView.m */,
+				181DEDF420B6C85D00507AE4 /* NSDate+Extension.m */,
+				181DEDF520B6C85D00507AE4 /* UIView+Extension.m */,
+			);
+			path = "WSDaePickerView（时间选择器）";
+			sourceTree = "<group>";
+		};
+		181DEDF620B6C85E00507AE4 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				181DEDF720B6C85E00507AE4 /* ATJWebViewController.h */,
+				181DEDF820B6C85E00507AE4 /* UIImage+TJ_Extension.m */,
+				181DEDF920B6C85E00507AE4 /* XTJWebNavigationViewController.m */,
+				181DEDFA20B6C85E00507AE4 /* ATJURLFailture.h */,
+				181DEDFB20B6C85E00507AE4 /* UIImage+TJ_Extension.h */,
+				181DEDFC20B6C85E00507AE4 /* ATJWebViewController.m */,
+				181DEDFD20B6C85E00507AE4 /* ATJURLFailture.m */,
+				181DEDFE20B6C85E00507AE4 /* XTJWebNavigationViewController.h */,
+			);
+			path = WebView;
 			sourceTree = "<group>";
 		};
 		1859A4FA20A1529B00FFB7EF /* SDLaunch(引导页) */ = {
@@ -1024,6 +1076,8 @@
 		364DA6021D6584F400F6F424 /* Vender(功能封装) */ = {
 			isa = PBXGroup;
 			children = (
+				181DEDF620B6C85E00507AE4 /* WebView */,
+				181DEDEE20B6C85D00507AE4 /* WSDaePickerView（时间选择器） */,
 				1859A4FA20A1529B00FFB7EF /* SDLaunch(引导页) */,
 				36A5302F1E8112220067F8F7 /* WebViewJavascriptBridge(H5原生交互) */,
 				36A469941E7F66D400E44702 /* MultipleViewsSlider(滑动多视图) */,
@@ -1534,7 +1588,6 @@
 				364DA5371D65849300F6F424 /* Sources */,
 				364DA5381D65849300F6F424 /* Frameworks */,
 				364DA5391D65849300F6F424 /* Resources */,
-				3A4C741EB49D81864E1D8D43 /* [CP] Embed Pods Frameworks */,
 				0AEC4EDB56D3292A1749FF4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -1631,6 +1684,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36111AE31D6EE63700A03BF4 /* LaunchScreen.storyboard in Resources */,
+				181DEDFF20B6C85E00507AE4 /* WSDatePickerView.xib in Resources */,
 				3686A8D01E724B5400FEA856 /* checkMark@2x.png in Resources */,
 				36111AE61D6EE67500A03BF4 /* Placeholder in Resources */,
 				3679AA951DDDACF300169DFF /* WMPlayer.bundle in Resources */,
@@ -1676,28 +1730,26 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BasicFramework/Pods-BasicFramework-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Sina/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
+				"${PODS_ROOT}/ZFPlayer/ZFPlayer/ZFPlayer.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZFPlayer.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasicFramework/Pods-BasicFramework-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3A4C741EB49D81864E1D8D43 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasicFramework/Pods-BasicFramework-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4792FE396A1EEE887F8D7125 /* [CP] Check Pods Manifest.lock */ = {
@@ -1706,13 +1758,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BasicFramework-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1731,6 +1786,7 @@
 				3679AA961DDDACF300169DFF /* WMPlayer.m in Sources */,
 				3675218B1E4D5A4900F2117C /* UITabBar+NightVersion.m in Sources */,
 				3679E9E91E8B452D00180014 /* ZipFileArchiveManager.m in Sources */,
+				181DEE0620B6C85E00507AE4 /* ATJURLFailture.m in Sources */,
 				365A39551FA7039E009B2170 /* PhotoSelectorManager.m in Sources */,
 				367A5DFF1E7FC6810026EC3D /* GraphicBT.m in Sources */,
 				3686A8D61E724B5400FEA856 /* LYLBouncing.m in Sources */,
@@ -1749,6 +1805,7 @@
 				3675218D1E4D5A4900F2117C /* UITableView+NightVersion.m in Sources */,
 				3675218A1E4D5A4900F2117C /* UITabBar+BarTintColor.m in Sources */,
 				368225F61FD63F3B004DFDEF /* YGMapManagerView.m in Sources */,
+				181DEE0420B6C85E00507AE4 /* XTJWebNavigationViewController.m in Sources */,
 				3679E9E81E8B452D00180014 /* JSBridgeManager.m in Sources */,
 				3679AAB11DDDB79A00169DFF /* UINavigationBar+SetElement.m in Sources */,
 				365A39311FA6FD5B009B2170 /* BasicWebView.m in Sources */,
@@ -1778,6 +1835,7 @@
 				186478C6209BF21800D49EE5 /* UsersManager.m in Sources */,
 				36410B8A1DC05C9300231AF5 /* HomePageVC.m in Sources */,
 				3679AAC21DDDB7C000169DFF /* UIImageView+Extension.m in Sources */,
+				181DEE0520B6C85E00507AE4 /* ATJWebViewController.m in Sources */,
 				365A395A1FA703E5009B2170 /* YGOptionPicker.m in Sources */,
 				362032731DD4748700F15494 /* NSDate+Extension.m in Sources */,
 				367521881E4D5A4900F2117C /* UIScrollView+BackgroundColor.m in Sources */,
@@ -1788,6 +1846,7 @@
 				3652A4501E28C22500F79333 /* NSObject+Extension.m in Sources */,
 				1859A52220A1529B00FFB7EF /* SDLaunchWebViewController.m in Sources */,
 				3679AAA01DDDB5E400169DFF /* UIView+Rotate.m in Sources */,
+				181DEE0020B6C85E00507AE4 /* WSDatePickerView.m in Sources */,
 				3679AAC61DDDB7C700169DFF /* UIDevice+Extension.m in Sources */,
 				361FC6A21E2DBBBE008B8402 /* UIColor+Extension.m in Sources */,
 				365A39251FA6F2B9009B2170 /* BasicConstants.m in Sources */,
@@ -1811,6 +1870,7 @@
 				3679AAB71DDDB7A800169DFF /* UITextField+Extension.m in Sources */,
 				3675217D1E4D5A4900F2117C /* UINavigationBar+Animation.m in Sources */,
 				365A392B1FA6F9BC009B2170 /* NetWorkManagerTwo.m in Sources */,
+				181DEE0220B6C85E00507AE4 /* UIView+Extension.m in Sources */,
 				3679AAC31DDDB7C000169DFF /* UIImageView+GIF.m in Sources */,
 				3675218E1E4D5A4900F2117C /* UITableView+SeparatorColor.m in Sources */,
 				36A4699A1E7F740E00E44702 /* LYLPageVC.m in Sources */,
@@ -1833,10 +1893,12 @@
 				367521831E4D5A4900F2117C /* UILabel+NightVersion.m in Sources */,
 				367521811E4D5A4900F2117C /* UIButton+NightVersion.m in Sources */,
 				186BD62B208EFECB004D47D4 /* HomeTableViewCell.m in Sources */,
+				181DEE0320B6C85E00507AE4 /* UIImage+TJ_Extension.m in Sources */,
 				368E151D1EB2ED6F00765F4B /* UIControl+BuriedPoint.m in Sources */,
 				36A469971E7F673800E44702 /* LYLSliderView.m in Sources */,
 				3679AA9E1DDDB5E400169DFF /* UIView+DragAndReset.m in Sources */,
 				3679AA8A1DDC521F00169DFF /* FileCacheManager.m in Sources */,
+				181DEE0120B6C85E00507AE4 /* NSDate+Extension.m in Sources */,
 				364DA62C1D6584F400F6F424 /* ProgressHUD.m in Sources */,
 				364DA6311D6584F400F6F424 /* BasicMainVC.m in Sources */,
 				367521921E4D5A4900F2117C /* UIView+NightVersion.m in Sources */,
