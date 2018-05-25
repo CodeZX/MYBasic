@@ -15,6 +15,11 @@
 		181DEE0420B6C85E00507AE4 /* XTJWebNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DEDF920B6C85E00507AE4 /* XTJWebNavigationViewController.m */; };
 		181DEE0520B6C85E00507AE4 /* ATJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DEDFC20B6C85E00507AE4 /* ATJWebViewController.m */; };
 		181DEE0620B6C85E00507AE4 /* ATJURLFailture.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DEDFD20B6C85E00507AE4 /* ATJURLFailture.m */; };
+		181DEE0920B8024F00507AE4 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DEE0820B8024E00507AE4 /* UIViewController+HUD.m */; };
+		181DEE1420B8077500507AE4 /* TKAlertCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DEE0C20B8077500507AE4 /* TKAlertCenter.m */; };
+		181DEE1520B8077500507AE4 /* TKProgressAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DEE0D20B8077500507AE4 /* TKProgressAlertView.m */; };
+		181DEE1620B8077500507AE4 /* TKProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DEE0E20B8077500507AE4 /* TKProgressBarView.m */; };
+		181DEE1720B8077500507AE4 /* UIView+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DEE0F20B8077500507AE4 /* UIView+TKCategory.m */; };
 		1859A52220A1529B00FFB7EF /* SDLaunchWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859A4FB20A1529B00FFB7EF /* SDLaunchWebViewController.m */; };
 		1859A52320A1529B00FFB7EF /* SDLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859A4FC20A1529B00FFB7EF /* SDLaunchViewController.m */; };
 		1859A52420A1529B00FFB7EF /* 进入应用.png in Resources */ = {isa = PBXBuildFile; fileRef = 1859A4FE20A1529B00FFB7EF /* 进入应用.png */; };
@@ -192,6 +197,16 @@
 		181DEDFC20B6C85E00507AE4 /* ATJWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATJWebViewController.m; sourceTree = "<group>"; };
 		181DEDFD20B6C85E00507AE4 /* ATJURLFailture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATJURLFailture.m; sourceTree = "<group>"; };
 		181DEDFE20B6C85E00507AE4 /* XTJWebNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTJWebNavigationViewController.h; sourceTree = "<group>"; };
+		181DEE0720B8024D00507AE4 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		181DEE0820B8024E00507AE4 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		181DEE0C20B8077500507AE4 /* TKAlertCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAlertCenter.m; sourceTree = "<group>"; };
+		181DEE0D20B8077500507AE4 /* TKProgressAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKProgressAlertView.m; sourceTree = "<group>"; };
+		181DEE0E20B8077500507AE4 /* TKProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKProgressBarView.m; sourceTree = "<group>"; };
+		181DEE0F20B8077500507AE4 /* UIView+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TKCategory.m"; sourceTree = "<group>"; };
+		181DEE1020B8077500507AE4 /* TKAlertCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAlertCenter.h; sourceTree = "<group>"; };
+		181DEE1120B8077500507AE4 /* TKProgressAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKProgressAlertView.h; sourceTree = "<group>"; };
+		181DEE1220B8077500507AE4 /* UIView+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TKCategory.h"; sourceTree = "<group>"; };
+		181DEE1320B8077500507AE4 /* TKProgressBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKProgressBarView.h; sourceTree = "<group>"; };
 		1859A4FB20A1529B00FFB7EF /* SDLaunchWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLaunchWebViewController.m; sourceTree = "<group>"; };
 		1859A4FC20A1529B00FFB7EF /* SDLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLaunchViewController.m; sourceTree = "<group>"; };
 		1859A4FD20A1529B00FFB7EF /* SDLaunchWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLaunchWebViewController.h; sourceTree = "<group>"; };
@@ -533,6 +548,21 @@
 				181DEDFE20B6C85E00507AE4 /* XTJWebNavigationViewController.h */,
 			);
 			path = WebView;
+			sourceTree = "<group>";
+		};
+		181DEE0B20B8077500507AE4 /* TKAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				181DEE0C20B8077500507AE4 /* TKAlertCenter.m */,
+				181DEE0D20B8077500507AE4 /* TKProgressAlertView.m */,
+				181DEE0E20B8077500507AE4 /* TKProgressBarView.m */,
+				181DEE0F20B8077500507AE4 /* UIView+TKCategory.m */,
+				181DEE1020B8077500507AE4 /* TKAlertCenter.h */,
+				181DEE1120B8077500507AE4 /* TKProgressAlertView.h */,
+				181DEE1220B8077500507AE4 /* UIView+TKCategory.h */,
+				181DEE1320B8077500507AE4 /* TKProgressBarView.h */,
+			);
+			path = TKAlertView;
 			sourceTree = "<group>";
 		};
 		1859A4FA20A1529B00FFB7EF /* SDLaunch(引导页) */ = {
@@ -1474,6 +1504,9 @@
 				3686A8CC1E724B5400FEA856 /* LYLBouncing.h */,
 				3686A8CD1E724B5400FEA856 /* LYLBouncing.m */,
 				3686A8CE1E724B5400FEA856 /* LYLConstants.h */,
+				181DEE0720B8024D00507AE4 /* UIViewController+HUD.h */,
+				181DEE0820B8024E00507AE4 /* UIViewController+HUD.m */,
+				181DEE0B20B8077500507AE4 /* TKAlertView */,
 			);
 			name = "AlertView(成功/失败/提醒弹框)";
 			path = AlertView;
@@ -1794,6 +1827,7 @@
 				186478C3209BF1F300D49EE5 /* UserModel.m in Sources */,
 				365A39521FA7014D009B2170 /* LYLIMGScrollView.m in Sources */,
 				186478B920999FA600D49EE5 /* UserCenterTableViewCell.m in Sources */,
+				181DEE1420B8077500507AE4 /* TKAlertCenter.m in Sources */,
 				368E15211EB2ED8B00765F4B /* BuriedPointManager.m in Sources */,
 				367521871E4D5A4900F2117C /* UINavigationBar+TintColor.m in Sources */,
 				367521821E4D5A4900F2117C /* UIButton+TitleColor.m in Sources */,
@@ -1809,6 +1843,7 @@
 				3679E9E81E8B452D00180014 /* JSBridgeManager.m in Sources */,
 				3679AAB11DDDB79A00169DFF /* UINavigationBar+SetElement.m in Sources */,
 				365A39311FA6FD5B009B2170 /* BasicWebView.m in Sources */,
+				181DEE1720B8077500507AE4 /* UIView+TKCategory.m in Sources */,
 				36B7B6881EE4F77A00E18E25 /* URLConstants.m in Sources */,
 				367521861E4D5A4900F2117C /* UINavigationBar+NightVersion.m in Sources */,
 				3679AA0E1DD9846700169DFF /* MainModel.m in Sources */,
@@ -1831,6 +1866,7 @@
 				3675217C1E4D5A4900F2117C /* DKNightVersionUtility.m in Sources */,
 				36A530381E8112220067F8F7 /* WebViewJavascriptBridge.m in Sources */,
 				367521901E4D5A4900F2117C /* UITableViewCell+NightVersion.m in Sources */,
+				181DEE1520B8077500507AE4 /* TKProgressAlertView.m in Sources */,
 				3686A8C11E724B1B00FEA856 /* LYLShareManager.m in Sources */,
 				186478C6209BF21800D49EE5 /* UsersManager.m in Sources */,
 				36410B8A1DC05C9300231AF5 /* HomePageVC.m in Sources */,
@@ -1860,6 +1896,7 @@
 				3679AAB41DDDB7A100169DFF /* UIViewController+Extension.m in Sources */,
 				367A5E171E7FC8D60026EC3D /* BaseModel.m in Sources */,
 				3675217A1E4D5A4900F2117C /* UIViewController+ChangeColor.m in Sources */,
+				181DEE1620B8077500507AE4 /* TKProgressBarView.m in Sources */,
 				1859A52320A1529B00FFB7EF /* SDLaunchViewController.m in Sources */,
 				367521801E4D5A4900F2117C /* UIBarButtonItem+TintColor.m in Sources */,
 				362032771DD4748700F15494 /* NSString+Extension.m in Sources */,
@@ -1873,6 +1910,7 @@
 				181DEE0220B6C85E00507AE4 /* UIView+Extension.m in Sources */,
 				3679AAC31DDDB7C000169DFF /* UIImageView+GIF.m in Sources */,
 				3675218E1E4D5A4900F2117C /* UITableView+SeparatorColor.m in Sources */,
+				181DEE0920B8024F00507AE4 /* UIViewController+HUD.m in Sources */,
 				36A4699A1E7F740E00E44702 /* LYLPageVC.m in Sources */,
 				364DA6591D65851C00F6F424 /* AppDelegate.m in Sources */,
 				3675217B1E4D5A4900F2117C /* DKNightVersionManager.m in Sources */,
